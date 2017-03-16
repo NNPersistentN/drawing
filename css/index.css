@@ -1,0 +1,111 @@
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+#can{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	box-shadow: 0px 0px 10px #000;
+}
+.can-box{
+	position: absolute;
+	left: 140px;
+	top: 50px;
+	width: 1450px;
+	height: 600px;
+}
+.disk{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	/*display: none;*/
+}
+.nav{
+	position: absolute;
+	left: 140px;
+	top: 5px;
+	height: 40px;
+	background: #ccc;
+	float: right;
+	box-shadow: 0px 0px 10px #ccc;
+	border-radius: 3px;	
+}
+.nav>ul{
+	width: 100%;
+	height: 100%;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	padding: 0 20px;
+
+}
+.nav>ul>li{
+	width: 60px;
+	margin-right: 10px;
+	border-radius: 5px;
+	text-align: center;
+	background: #e6e6e6;
+	list-style: none;
+}
+
+button{
+	width: 30px;
+	height: 30px;
+	background: none;
+	border:none;
+	box-shadow: 0px 0px 10px #ccc;
+	outline: none;
+	margin-bottom: 20px;
+}
+.left{
+	width: 110px;
+	box-shadow: 0px 0px 10px #666;
+	height: 645px;
+	margin-top: 5px;
+	padding: 00px 10px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+.left>div{
+	border-bottom:1px dotted #999;
+	margin-top: 20px; 
+}
+.left>div:last-child{
+	border: none;
+}
+.col{
+	width: 100%;
+	height: 50px;
+}
+.col.z{
+	border-top: 1px dotted #999;
+	padding-top: 20px;
+}
+.col>button{
+	margin-top: 0;
+	float: left;
+	margin-bottom: 0;
+}
+.col>input{
+	width: 50px;
+	height: 40px;
+	float: left;
+	margin-top: -5px;
+	margin-left: 20px;
+}
+
+input[type="color" i] {
+	border-image: none;	
+	border: none;
+	outline: none;
+	background-size: 20px;
+	background: none;
+}
+
+
